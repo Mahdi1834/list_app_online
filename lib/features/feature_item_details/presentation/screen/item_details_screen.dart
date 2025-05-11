@@ -64,8 +64,10 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                 children: [
                   Expanded(
                     child: TextField(
+
                       controller: _controller,
                       decoration: InputDecoration(
+
                         labelText: 'توضیحات',
                         border: OutlineInputBorder(),
                       ),
@@ -73,6 +75,8 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                       maxLines: null,
                       minLines: null,
                       keyboardType: TextInputType.multiline,
+                      textAlign: TextAlign.right, // برای شروع از راست
+                      textAlignVertical: TextAlignVertical.top,
                     ),
                   ),
                   const SizedBox(height: 16),

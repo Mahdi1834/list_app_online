@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'IranSans',
         appBarTheme: const AppBarTheme(
           centerTitle: true,
           backgroundColor: Colors.blue
